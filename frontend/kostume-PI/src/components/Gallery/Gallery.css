@@ -1,0 +1,130 @@
+  
+  body {
+   
+    margin: 0;
+    
+}
+
+
+.gallery__container {
+    width: 100%;
+    height: 80%;
+    position: relative;
+    padding-inline: 1rem;
+    box-sizing: border-box;
+    margin-top: 1.2rem;
+    display: flex;
+    align-items: flex-start; 
+
+}
+
+.gallery__content {
+    flex: 1;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: repeat(1, 30rem);
+    gap: 1rem;
+    padding: 0.5rem;
+   
+}
+
+.content-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 1rem;
+    background-color: darkorchid;
+    transition: transform 0.3s ease-in-out;
+}
+
+.content-image:hover {
+    transform: scale(0.98);
+}
+
+.content-image:nth-child(1) {
+    grid-row: span 2;
+    grid-column: span 1;
+}
+
+.content-image:nth-child(2),
+.content-image:nth-child(3),
+.content-image:nth-child(4),
+.content-image:nth-child(5) {
+    grid-row: span 1;
+    grid-column: span 1;
+
+}
+
+  .more{
+    position: absolute;
+    bottom: .3rem;
+    font-size: 1.4rem;
+    color: #F7D1EB;
+    padding: 0.3rem 0.5rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+  }
+  @media (max-width: 768px) {
+    .gallery__content {
+        grid-template-columns: 1fr; /* Cambiar a una sola columna */
+        grid-template-rows: auto auto; /* Altura automática para adaptar al contenido */
+    }
+    
+    .content-image:nth-child(1) {
+        grid-row: auto;
+        grid-column: auto;
+    }
+
+    .content-image:nth-child(2),
+    .content-image:nth-child(3),
+    .content-image:nth-child(4),
+    .content-image:nth-child(5) {
+        grid-row: auto;
+        grid-column: auto;
+    }
+}
+
+
+@media (max-width: 390px) {
+  .gallery__content {
+      grid-template-columns: 1fr; /* Cambiar a una sola columna */
+      grid-template-rows: auto auto; /* Altura automática para adaptar al contenido */
+  }
+  
+  .content-image:nth-child(1) {
+      grid-row: auto;
+      grid-column: auto;
+  }
+
+  .content-image:nth-child(2),
+  .content-image:nth-child(3),
+  .content-image:nth-child(4),
+  .content-image:nth-child(5) {
+      grid-row: auto;
+      grid-column: auto;
+  }
+}
+.content-modal{
+    margin-top: 105px;
+    width: 100%;
+    height: 100%;
+}
+ .close-button{
+      position: absolute;
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-start;
+      top: 7rem;
+      right: 3rem;
+       padding: 0.5rem;  
+      font-size: 1rem;
+      cursor: pointer; 
+      background-color: #D46D80 ;
+      border-radius: 0.2rem;
+      
+     }   
+
+
+
+
+

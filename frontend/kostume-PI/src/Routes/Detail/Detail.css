@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: white;
+    background-color: #000000;
+    font-family: 'poppins', sans-serif;
+}
+
+.detail_title {
+    display: grid;
+    grid-template-columns: 95% 5%;
+    align-items: center;
+    margin-left: 3rem;
+    margin-top: 8rem;
+}
+
+.detail_title svg {
+    margin-left: 10px;
+    color: #F7D1EB;
+
+}
+
+.title {
+    margin-left: 20px;
+    color: #F7D1EB;
+    font-family: 'poppins';
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.infoDisfraz {
+    margin: 2rem;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 1fr;
+    align-content: space-between;
+    margin-left: 10rem;
+}
+
+.precioAlquiler {
+    color: #D46D80;
+    text-align: justify;
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 20px;
+}
+
+.boxA .tallas {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.marquilla {
+    column-gap: 10px;
+    margin-top: 2px;
+    display: grid;
+    list-style: none;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 200px;
+}
+
+.marquilla li {
+    background-color: #D46D80;
+    border-radius: 10px;
+    width: 50px;
+    text-align: center;
+    color: #F7D1EB;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.guia {
+    margin-top: 20px;
+    font-size: 12px;
+    text-decoration: underline;
+}
+
+.descripcion {
+    background-color: rgb(247, 209, 235, 07);
+    color: #000000;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: justify;
+    padding: 50px 50px 50px;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    left: 10rem;
+
+}
+
+.more {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    right: 1.5rem;
+    font-size: 1.4rem;
+    color: #F7D1EB;
+    cursor: pointer;
+    bottom: 5.5rem;
+}
+
+.characteristics_container {
+    position: relative;
+    border-top: 4px solid #F7D1EB;
+    padding-top: 1rem;
+    position: relative;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.characteristics {
+    font-size: 1.6rem;
+    width: 100%;
+    position: relative;
+    padding-inline: 1rem;
+    box-sizing: border-box;
+    margin-top: 0.5rem;
+    margin-left: 3rem;
+}
+
+
+.list_characteristics {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin-left: 3rem;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 1.5rem;
+
+}
+
+.characteristics-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.characteristics-name {
+    font-size: 14px;
+    order: 1;
+
+}
+
+.button-res {
+    background-color: #D46D80;
+    color: #000000;
+    font-size: 1.2rem;
+    padding: 7px 50px;
+    border-radius: 0.5rem;
+    margin-top: 2rem;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+
+    .detail_title {
+        display: grid;
+        grid-template-columns: 92% 8%;
+        align-items: center;
+        margin-top: 6rem;
+        margin-left: 20px;
+        height: 60px;
+    }
+
+    .detail_title svg {
+        margin-left: 10px;
+        color: #F7D1EB;
+    }
+
+    .title {
+        margin-left: 0px;
+        font-size: 1.2rem;
+    }
+
+    .infoDisfraz {
+        margin: 2rem;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 30% 70%fr;
+        align-content: space-between;
+    }
+
+    .list_characteristics {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+    }
+}
+
+
+@media (max-width:px) {
+    .list_characteristics {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 2rem;
+
+    }
+}

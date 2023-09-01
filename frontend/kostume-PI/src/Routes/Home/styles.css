@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+.bg-search {
+    background: radial-gradient(52.12% 34.26% at center, #6229BF, transparent);
+}
+
+.gallery {
+    flex-basis: 60 rem;
+    flex-grow: 1;
+    height: 60rem;
+    background-color: black;
+}

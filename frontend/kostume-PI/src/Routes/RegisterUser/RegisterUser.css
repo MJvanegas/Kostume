@@ -1,0 +1,200 @@
+h1 {
+    font-size: large;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.button-guardar {
+    background-color: var(--color-button);
+    border: none;
+    width: 350px;
+    height: 25px;
+    cursor: pointer;
+    color: var(--coloe-font-Secundary);
+    margin-top: 15px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.button-modal {
+    padding: 5px 20px;
+    background-color: var(--color-button);
+    color: var(--coloe-font-Secundary);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.message-modal {
+    width: 30%;
+    height: 30%;
+    margin: auto;
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--coloe-font-Secundary);
+}
+
+.Input-Personalizado {
+    width: 167.5px;
+    border-radius: 5px;
+    height: 25px;
+}
+
+.Div-Personalizado {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+input {
+    color: black;
+    width: 350px;
+    border-radius: 5px;
+    height: 25px;
+}
+
+label {
+    color: var(--coloe-font-Secundary);
+}
+
+.Form-Container {
+    font-size: small;
+    max-width: 400px;
+    margin: auto;
+    padding: 25px;
+    border: 1px solid #373636;
+    flex-direction: column;
+    display: flex;
+    border-radius: 10px;
+    gap: 50px;
+    background-color: rgba(248, 225, 237, 0.8);
+}
+
+.Container-Global {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin: auto;
+}
+
+.Container-Global img {
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+    opacity: 0.6;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: large;
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+
+    .button-guardar {
+        background-color: var(--color-button);
+        border: none;
+        width: 350px;
+        height: 25px;
+        cursor: pointer;
+        color: var(--coloe-font-Secundary);
+        margin-top: 15px;
+        border-radius: 5px;
+        font-weight: bold;
+    }
+
+    .button-modal {
+        padding: 5px 20px;
+        background-color: var(--color-button);
+        color: var(--coloe-font-Secundary);
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 40px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    }
+
+    .message-modal {
+        width: 30%;
+        height: 30%;
+        margin: auto;
+        border: 1px solid #ccc;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: var(--coloe-font-Secundary);
+    }
+
+    .Input-Personalizado {
+        width: 167.5px;
+        border-radius: 5px;
+        height: 25px;
+    }
+
+    .Div-Personalizado {
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+    }
+
+    input {
+        color: black;
+        width: 350px;
+        border-radius: 5px;
+        height: 25px;
+    }
+
+    label {
+        color: var(--coloe-font-Secundary);
+    }
+
+    .Form-Container {
+        font-size: small;
+        max-width: 400px;
+        margin: auto;
+        padding: 25px;
+        border: 1px solid #373636;
+        flex-direction: column;
+        display: flex;
+        border-radius: 10px;
+        gap: 50px;
+        background-color: rgba(248, 225, 237, 0.8);
+    }
+
+    .Container-Global {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        margin: auto;
+    }
+
+    .Container-Global img {
+        max-width: 300px;
+        height: auto;
+        border-radius: 10px;
+        opacity: 0.6;
+        display: none;
+    }
+
+}
+
+@media (max-width: 375px) {
+    .Form-Container {
+        font-size: small;
+        max-width: 300px;
+        margin: 100px auto;
+    }
+    .Input-Personalizado {
+        width: 122.5px;
+    }
+    label{
+        font-size: 0.6rem;
+    }
+
+}

@@ -1,0 +1,19 @@
+:root {
+    --color-primary:#121212;
+    --color-secondary-Category: #2B1621;
+    --color-terciary-Footer:#EDA9B6;
+    --color-Card:#F8E1ED;
+    --color-font-Primary: #f7d1eb;
+    --coloe-font-Secundary:#0C0B0B;
+    --color-button:#D46D80;
+    --gradient-colors:#FF2CF7, #FB047B, #FF7EBC, #FFFFFF, #49FFE9, #1A0EFF ;
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    vertical-align: baseline;
+}
+
